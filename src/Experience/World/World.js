@@ -24,7 +24,7 @@ export default class World
         geometry.scale( - 1, 1, 1 );
 
         // const texture = new THREE.VideoTexture( video );
-        const imageSource = '/images/test.png'
+        const imageSource = './images/test.png'
         const image = new Image()
         const texture = new THREE.Texture(image)
         image.addEventListener('load', () =>
@@ -32,8 +32,6 @@ export default class World
             texture.needsUpdate = true
         })
         image.src = imageSource
-        console.log(imageSource)
-        const loader = THREE.TextureLoader();
         const material = new THREE.MeshBasicMaterial( { map: texture } );
         // const material = new THREE.MeshBasicMaterial( { color: "red" } );
 
