@@ -1,4 +1,4 @@
-# 360-img-viewer
+# 360img
 simple 360 image viewer for testing, only works locally right now
 
 ## Setup
