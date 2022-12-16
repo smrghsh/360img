@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","mappings":"AAAA;;IAEI,SAAS;IACT,UAAU;;AAEd;AACA;;IAEI,kBAAkB;IAClB,UAAU;IACV,aAAa;AACjB,C","sources":["webpack:///./src/style.css"],"sourcesContent":["*\r\n{\r\n    margin: 0;\r\n    padding: 0;\r\n\r\n}\r\n.webgl\r\n{\r\n    position: absolute;\r\n    z-index: 0;\r\n    outline: none;\r\n}"],"names":[],"sourceRoot":""}
