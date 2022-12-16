@@ -1,5 +1,5 @@
 # 360-img-viewer
-simple 360 image viewer for testing
+simple 360 image viewer for testing, only works locally right now
 
 ## Setup
 `npm install` - installs necessary dependencies
