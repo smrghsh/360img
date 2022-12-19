@@ -1,6 +1,5 @@
 # 360img
-simple 360 image viewer for testing, only works locally right now
-
+simple 360 image viewer for testing
 ## Setup
 `npm install` - installs necessary dependencies
 `npm run dev` - runs a local server 
