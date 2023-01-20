@@ -24,7 +24,9 @@ export default class World
         geometry.scale( - 1, 1, 1 );
 
         // const texture = new THREE.VideoTexture( video );
-        const imageSource = './images/test.png'
+
+        // CHANGE THIS SOURCE HERE!!!!!
+        const imageSource = './images/test2.png'
         const image = new Image()
         const texture = new THREE.Texture(image)
         image.addEventListener('load', () =>
