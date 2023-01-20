@@ -22,11 +22,12 @@ export default class World
         const geometry = new THREE.SphereGeometry( 13, 60, 40 );
         // invert the geometry on the x-axis so that all of the faces point inward
         geometry.scale( - 1, 1, 1 );
-
+        // geometry.scale()
+// 
         // const texture = new THREE.VideoTexture( video );
 
         // CHANGE THIS SOURCE HERE!!!!!
-        const imageSource = './images/test2.png'
+        const imageSource = './images/test2.jpg'
         const image = new Image()
         const texture = new THREE.Texture(image)
         image.addEventListener('load', () =>
