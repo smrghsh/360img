@@ -7,3 +7,7 @@ simple 360 image viewer for testing
 ## Use
 
 To use: place the image in the static folder and `npm run dev`
+
+
+## Build
+`npm run build`
