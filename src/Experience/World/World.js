@@ -19,7 +19,12 @@ export default class World
             this.environment = new Environment()
         })
     
-        const geometry = new THREE.SphereGeometry( 13, 60, 40 );
+        // const geometry = new THREE.SphereGeometry( 13, 60, 40 );
+
+        // we are doing a cylinder rn
+        const geometry = new THREE.CylinderGeometry( 5, 5, 5, 60, 1, true);
+
+        
         // invert the geometry on the x-axis so that all of the faces point inward
         geometry.scale( - 1, 1, 1 );
         // geometry.scale()
@@ -35,7 +40,7 @@ export default class World
             texture.needsUpdate = true
         })
         image.src = imageSource
-        const material = new THREE.MeshBasicMaterial( { map: texture } );
+        const material = new THREE.MeshBasicMaterial( { map: texture} );
         // const material = new THREE.MeshBasicMaterial( { color: "red" } );
 
         const mesh = new THREE.Mesh( geometry, material );
