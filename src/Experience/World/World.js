@@ -27,7 +27,7 @@ export default class World
         // const texture = new THREE.VideoTexture( video );
 
         // CHANGE THIS SOURCE HERE!!!!!
-        const imageSource = './images/test.png'
+        const imageSource = './images/test2-warp-transformed.jpg'
         const image = new Image()
         const texture = new THREE.Texture(image)
         image.addEventListener('load', () =>
